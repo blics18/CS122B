@@ -12,12 +12,15 @@
 
 <H1 ALIGN="CENTER">Fabflix Login</H1>
 
+
 <FORM ACTION="/fabflix/servlet/LoginPage"
       METHOD="POST">
 <CENTER>
-  Email: <INPUT TYPE="TEXT" NAME="email"><BR></BR>
+    Email: <INPUT TYPE="TEXT" NAME="email"><BR></BR>
 
-  Password: <INPUT TYPE="PASSWORD" NAME="password"><BR></BR>
+    Password: <INPUT TYPE="PASSWORD" NAME="password"><BR></BR>
+
+    <H5 ALIGN="CENTER" STYLE="color:red">Invalid Email or Password</H5>
 
     <INPUT TYPE="SUBMIT" VALUE="Login">
 </CENTER>
